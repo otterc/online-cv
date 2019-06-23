@@ -124,7 +124,6 @@ projects:
       - title: Peer-to-peer Web indexer/crawler
         tagline: March 2009 – May 2009. Developed a Google-like distributed search engine which included a Crawler, Indexer/TF-IDF Retrieval Engine, PageRank, Search Engine and User Interface. Programmed in Java.
 
-
 skills:
     title: Technical Skills
 

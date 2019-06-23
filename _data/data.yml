@@ -3,198 +3,139 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Chandni Singh
+    tagline: Software Engineer (Distributed Systems)
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: singh.chandni@gmail.com
+    phone: 215 687 5734
+    website: csingh.github.io/online-cv/
+    linkedin: csingh7
+    github: otterc
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Biking
         link:
 
-      - item: Snowboarding
+      - item: Hiking
         link:
-
-      - item: Cooking
-        link:
-
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master of Science in Engineering, Computer and Information Science
+      university: University of Pennsylvania, School of Engineering and Applied Science, Philadelphia
+      time: 2008 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Cumulative GPA: 3.74/4.0
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Bachelor of Technology in Computer Science and Engineering
+      university: Institute of Engineering and Technology, Lucknow, India
+      time: 2001 - 2005
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Score: 70/100
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Staff Software Engineer
+      time: October 2017 - Present
+      company: Hortonworks/Cloudera
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Member of YARN team. Apache Hadoop Committer since March 2019.
+        Currently working on a cloud agnostic kubernetes cluster provisioner service.
+        Major contributions to Apache YARN:
+          - Support in-place upgrade of a YARN service. https://issues.apache.org/jira/browse/YARN-7512
+          - Support sliding window container auto-restart policy in the node managers. https://issues.apache.org/jira/browse/YARN-5015
+          - Improved handling and notification of recovered containers by the resource manager. https://issues.apache.org/jira/browse/YARN-6168
+          - Multiple other enhancements/bug fixes. https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh)
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Staff Software Engineer
+      time: November 2016 - September 2017
+      company: GE Digital - Predix Data Services, California, USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Lead the development of a Predix service that manages and monitors different types of
+        big data analytic applications - Apache Spark and Apache Apex.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Master Data Engineer
+      time: June 2016 - November 2016
+      company: Data Innovation Team at CapitalOne, California, USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Developed a data processing pipeline for an internal security related project. Evaluated
+        Apache Apex, Flink and Spark for the project, and developed a Flink application to
+        ingest data, clean and aggregate it.
 
-          - Bullet point
-          - Bullet point
+    - role: Software Engineer
+      time: August 2013 - April 2016
+      company: DataTorrent, California, USA
+      details: |
+        Designed and developed features for a real-time yarn-native streaming engine Apache
+        Apex. I am a PMC member and my contributions are here:
+        https://github.com/apache/apex-core/commits/master?author=otterc
+        https://github.com/apache/apex-malhar/commits/master?author=otterc
+
+          - Created a simple API for the user to define metrics specific to an Apex application.
+          - Created ManagedState which is a component that incrementally checkpoints key-value state.
+          - Created an idempotent data managing framework, which was integrated with many of Apex’s input connectors (HDFS, JMS, and Kafka) to ingest data idempotently.
+          - Added support for configuration based schemas to the platform.
+          - Added support for the user to specify log levels on a per-class basis which can be changed dynamically as an APEX application is running.
+          - Created various fault-tolerant Input/Output Connectors- FileSystem, JMS, JDBC, CouchDB, Redis, etc.
+
+    - role: Software Developer/AVP
+      time: August 2010 - August 2013
+      company: Currenex, California, USA
+      details: |
+        Worked on high-frequency currency trading applications, which are used by brokerage firms to make a profit off trades between traders and market makers.
+
+    - role: Software Engineer
+      time: December 2007 – June 2008
+      company: Adobe Systems, Bangalore, India
+      details: |
+        Involved in development and quality assurance of a web-publishing tool called Contribute.
+
+    - role: Assistant Systems Engineer
+      time: October 2005 – October 2007
+      company: Tata Consultancy Services, Bangalore, India
+      details: |
+        Part of the web development team that focused on creating strong and secure application for American Express Bank
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: PeerReview on Wireless Sensor Network
+        February 2010 – May 2010
+        tagline: Designed and implemented a variation of PeerReview algorithm to detect byzantine failures in Wireless Sensor Networks and evaluated its performance and resource requirements. Programmed in C.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: PennSense
+        September 2009 – December 2009
+        tagline: Developed a building energy monitoring system which includes dynamic sensor network with a set of sensor nodes reporting real time values of light, temperature and motion to a gateway. Programmed in C.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Quality assessment of data in a wiki-like system
+        May 2009 – August 2009
+        tagline: Research project which involved capturing the provenance of data by developing a tool that records the changes to the data in a wiki-like system and evaluates the quality of the information based on its sources. Programmed in Java.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Peer-to-peer Web indexer/crawler
+        March 2009 – May 2009
+        tagline: Developed a Google-like distributed search engine which included a Crawler, Indexer/TF-IDF Retrieval Engine, PageRank, Search Engine and User Interface. Programmed in Java.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Technical Skills
 
     toolset:
-      - name: Python & Django
+      - name: Java, Golang, and C
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Apache Hadoop, Apache Apex, and Kubernetes
         level: 98%
 
-      - name: Angular
+      - name: Git, Maven, Docker
         level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

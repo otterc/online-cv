@@ -79,8 +79,7 @@ experiences:
       details: |
         Designed and developed features for a real-time yarn-native streaming engine Apache
         Apex. I am a PMC member and my contributions are here:
-
-        [apex-core](https://github.com/apache/apex-core/commits/master?author=otterc)
+        [apex-core](https://github.com/apache/apex-core/commits/master?author=otterc) and
         [apex-malhar](https://github.com/apache/apex-malhar/commits/master?author=otterc)
 
           - Created a simple API for the user to define metrics specific to an Apex application.
@@ -113,17 +112,17 @@ projects:
     intro: >
 
     assignments:
-      - title: PeerReview on Wireless Sensor Network. February 2010 – May 2010
-        tagline: Designed and implemented a variation of PeerReview algorithm to detect byzantine failures in Wireless Sensor Networks and evaluated its performance and resource requirements. Programmed in C.
+      - title: PeerReview on Wireless Sensor Network
+        tagline: February 2010 – May 2010. Designed and implemented a variation of PeerReview algorithm to detect byzantine failures in Wireless Sensor Networks and evaluated its performance and resource requirements. Programmed in C.
 
-      - title: PennSense. September 2009 – December 2009
-        tagline: Developed a building energy monitoring system which includes dynamic sensor network with a set of sensor nodes reporting real time values of light, temperature and motion to a gateway. Programmed in C.
+      - title: PennSense
+        tagline: September 2009 – December 2009. Developed a building energy monitoring system which includes dynamic sensor network with a set of sensor nodes reporting real time values of light, temperature and motion to a gateway. Programmed in C.
 
-      - title: Quality assessment of data in a wiki-like system. May 2009 – August 2009
-        tagline: Research project which involved capturing the provenance of data by developing a tool that records the changes to the data in a wiki-like system and evaluates the quality of the information based on its sources. Programmed in Java.
+      - title: Quality assessment of data in a wiki-like system
+        tagline:  May 2009 – August 2009. Research project which involved capturing the provenance of data by developing a tool that records the changes to the data in a wiki-like system and evaluates the quality of the information based on its sources. Programmed in Java.
 
-      - title: Peer-to-peer Web indexer/crawler. March 2009 – May 2009
-        tagline: Developed a Google-like distributed search engine which included a Crawler, Indexer/TF-IDF Retrieval Engine, PageRank, Search Engine and User Interface. Programmed in Java.
+      - title: Peer-to-peer Web indexer/crawler
+        tagline: March 2009 – May 2009. Developed a Google-like distributed search engine which included a Crawler, Indexer/TF-IDF Retrieval Engine, PageRank, Search Engine and User Interface. Programmed in Java.
 
 
 skills:

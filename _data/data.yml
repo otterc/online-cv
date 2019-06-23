@@ -110,20 +110,16 @@ projects:
     intro: >
 
     assignments:
-      - title: PeerReview on Wireless Sensor Network
-        February 2010 – May 2010
+      - title: PeerReview on Wireless Sensor Network. February 2010 – May 2010
         tagline: Designed and implemented a variation of PeerReview algorithm to detect byzantine failures in Wireless Sensor Networks and evaluated its performance and resource requirements. Programmed in C.
 
-      - title: PennSense
-        September 2009 – December 2009
+      - title: PennSense. September 2009 – December 2009
         tagline: Developed a building energy monitoring system which includes dynamic sensor network with a set of sensor nodes reporting real time values of light, temperature and motion to a gateway. Programmed in C.
 
-      - title: Quality assessment of data in a wiki-like system
-        May 2009 – August 2009
+      - title: Quality assessment of data in a wiki-like system. May 2009 – August 2009
         tagline: Research project which involved capturing the provenance of data by developing a tool that records the changes to the data in a wiki-like system and evaluates the quality of the information based on its sources. Programmed in Java.
 
-      - title: Peer-to-peer Web indexer/crawler
-        March 2009 – May 2009
+      - title: Peer-to-peer Web indexer/crawler. March 2009 – May 2009
         tagline: Developed a Google-like distributed search engine which included a Crawler, Indexer/TF-IDF Retrieval Engine, PageRank, Search Engine and User Interface. Programmed in Java.
 
 

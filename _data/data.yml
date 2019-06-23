@@ -34,27 +34,29 @@ education:
     - degree: Master of Science in Engineering, Computer and Information Science
       university: University of Pennsylvania, School of Engineering and Applied Science, Philadelphia
       time: 2008 - 2010
-      details: >
+      details: |
         Cumulative GPA: 3.74/4.0
 
     - degree: Bachelor of Technology in Computer Science and Engineering
       university: Institute of Engineering and Technology, Lucknow, India
       time: 2001 - 2005
-      details: >
+      details: |
         Score: 70/100
 
 experiences:
     - role: Staff Software Engineer
       time: October 2017 - Present
       company: Hortonworks/Cloudera
-      details: >
+      details: |
         Member of YARN team. Apache Hadoop Committer since March 2019.
+
         Currently working on a cloud agnostic kubernetes cluster provisioner service.
+
         Major contributions to Apache YARN:
-          - Support in-place upgrade of a YARN service. https://issues.apache.org/jira/browse/YARN-7512
-          - Support sliding window container auto-restart policy in the node managers. https://issues.apache.org/jira/browse/YARN-5015
-          - Improved handling and notification of recovered containers by the resource manager. https://issues.apache.org/jira/browse/YARN-6168
-          - Multiple other enhancements/bug fixes. https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh)
+          - Support in-place upgrade of a YARN service. [YARN-7512](https://issues.apache.org/jira/browse/YARN-7512)
+          - Support sliding window container auto-restart policy in the node managers. [YARN-5015](https://issues.apache.org/jira/browse/YARN-5015)
+          - Improved handling and notification of recovered containers by the resource manager. [YARN-6168](https://issues.apache.org/jira/browse/YARN-6168)
+          - Multiple other enhancements/bug fixes. [yarn-csingh](https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh))
 
     - role: Staff Software Engineer
       time: November 2016 - September 2017
@@ -74,11 +76,12 @@ experiences:
     - role: Software Engineer
       time: August 2013 - April 2016
       company: DataTorrent, California, USA
-      details: >
+      details: |
         Designed and developed features for a real-time yarn-native streaming engine Apache
         Apex. I am a PMC member and my contributions are here:
-        https://github.com/apache/apex-core/commits/master?author=otterc
-        https://github.com/apache/apex-malhar/commits/master?author=otterc
+
+        [apex-core](https://github.com/apache/apex-core/commits/master?author=otterc)
+        [apex-malhar](https://github.com/apache/apex-malhar/commits/master?author=otterc)
 
           - Created a simple API for the user to define metrics specific to an Apex application.
           - Created ManagedState which is a component that incrementally checkpoints key-value state.

@@ -129,10 +129,7 @@ skills:
 
     toolset:
       - name: Java, Golang, and C
-        level: 98%
 
       - name: Apache Hadoop, Apache Apex, and Kubernetes
-        level: 98%
 
       - name: Git, Maven, Docker
-        level: 98%

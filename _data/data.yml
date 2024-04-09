@@ -65,7 +65,7 @@ experiences:
           - Support in-place upgrade of a YARN service. [YARN-7512](https://issues.apache.org/jira/browse/YARN-7512)
           - Support sliding window container auto-restart policy in the node managers. [YARN-5015](https://issues.apache.org/jira/browse/YARN-5015)
           - Improved handling and notification of recovered containers by the resource manager. [YARN-6168](https://issues.apache.org/jira/browse/YARN-6168)
-          - Multiple other enhancements/bug fixes. [yarn-contributions](https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh))
+          - Multiple other enhancements/bug fixes - [yarn-contributions](https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh))
        - Worked on a cloud agnostic kubernetes cluster provisioner service.
 
     - role: Staff Software Engineer

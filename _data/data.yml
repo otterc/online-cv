@@ -33,30 +33,40 @@ sidebar:
 education:
     - degree: Master of Science in Engineering, Computer and Information Science
       university: University of Pennsylvania, School of Engineering and Applied Science, Philadelphia
-      time: 2008 - 2010
       details: |
         Cumulative GPA: 3.74/4.0
 
     - degree: Bachelor of Technology in Computer Science and Engineering
       university: Institute of Engineering and Technology, Lucknow, India
-      time: 2001 - 2005
       details: |
         Score: 70/100
 
 experiences:
     - role: Staff Software Engineer
-      time: October 2017 - Present
-      company: Hortonworks/Cloudera
+      time: September 2022 - March 2024
+      company: LinkedIn, California, USA
       details: |
-        Member of YARN team. Apache Hadoop Committer since March 2019.
+        - Tech lead of the Spark core team.
+        - Lead the effort to establish a new Remote Shuffle Service based on [Apache Celeborn](https://celeborn.apache.org/) at LinkedIn.
+        - Contributed [SASL Authentication](https://issues.apache.org/jira/browse/CELEBORN-1011) to Apache Celeborn. Committer of Apache Celeborn since March 2024.
 
-        Currently working on a cloud agnostic kubernetes cluster provisioner service.
+    - role: Senior Software Engineer
+      time: August 2019 - August 2022
+      company: LinkedIn, California, USA
+      details: |
+        - Focused on the Spark Shuffle infrastructure. Part of the core team that worked on [Push-based shuffle](https://engineering.linkedin.com/blog/2020/introducing-magnet) and lead the effort of contributing it to the open source ([SPARK-30602](https://issues.apache.org/jira/browse/SPARK-30602)).
+        - [Contributions](https://issues.apache.org/jira/issues/?filter=-1&jql=assignee%20%3D%20csingh%20AND%20project%20%3D%20Spark%20AND%20resolution%20%3D%20Fixed%20%20order%20by%20updated%20ASC) to Apache Spark.
 
-        Major contributions to Apache YARN:
+    - role: Staff Software Engineer
+      time: October 2017 - July 2019
+      company: Hortonworks/Cloudera, California, USA
+      details: |
+       -  Member of YARN team. Apache Hadoop Committer since March 2019. Major contributions to Apache YARN:
           - Support in-place upgrade of a YARN service. [YARN-7512](https://issues.apache.org/jira/browse/YARN-7512)
           - Support sliding window container auto-restart policy in the node managers. [YARN-5015](https://issues.apache.org/jira/browse/YARN-5015)
           - Improved handling and notification of recovered containers by the resource manager. [YARN-6168](https://issues.apache.org/jira/browse/YARN-6168)
           - Multiple other enhancements/bug fixes. [yarn-contributions](https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh))
+       - Worked on a cloud agnostic kubernetes cluster provisioner service.
 
     - role: Staff Software Engineer
       time: November 2016 - September 2017
@@ -95,18 +105,6 @@ experiences:
       details: |
         Worked on high-frequency currency trading applications, which are used by brokerage firms to make a profit off trades between traders and market makers.
 
-    - role: Software Engineer
-      time: December 2007 – June 2008
-      company: Adobe Systems, Bangalore, India
-      details: |
-        Involved in development and quality assurance of a web-publishing tool called Contribute.
-
-    - role: Assistant Systems Engineer
-      time: October 2005 – October 2007
-      company: Tata Consultancy Services, Bangalore, India
-      details: |
-        Part of the web development team that focused on creating strong and secure application for American Express Bank
-
 projects:
     title: Projects
     intro: >
@@ -131,7 +129,7 @@ skills:
       - name: Java, Golang, and C
         level: 98%
 
-      - name: Apache Hadoop, Apache Apex, and Kubernetes
+      - name: Apache Celeborn, Apache Spark, Apache Hadoop, Apache Apex, and Kubernetes
         level: 98%
 
       - name: Git, Maven, Docker

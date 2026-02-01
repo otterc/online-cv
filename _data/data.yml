@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Chandni Singh
-    tagline: Software Engineer (Distributed Systems)
+    tagline: Staff Software Engineer with 14+ years building large-scale big data and stream processing infrastructure, Tech Lead on Apache Spark and distributed systems.
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -32,105 +32,81 @@ sidebar:
 
 education:
     - degree: Master of Science in Engineering, Computer and Information Science
-      university: University of Pennsylvania, School of Engineering and Applied Science, Philadelphia
-      details: |
-        Cumulative GPA: 3.74/4.0
+      university: University of Pennsylvania, School of Engineering and Applied Science, Philadelphia0
 
     - degree: Bachelor of Technology in Computer Science and Engineering
       university: Institute of Engineering and Technology, Lucknow, India
-      details: |
-        Score: 70/100
 
 experiences:
     - role: Staff Software Engineer
       time: September 2022 - March 2024
-      company: LinkedIn, California, USA
+      company: LinkedIn, Sunnyvale, California, USA
       details: |
-        - Tech lead of the Spark core team.
-        - Lead the effort to establish a new Remote Shuffle Service based on [Apache Celeborn](https://celeborn.apache.org/) at LinkedIn.
-        - Contributed [SASL Authentication](https://issues.apache.org/jira/browse/CELEBORN-1011) to Apache Celeborn. Committer of Apache Celeborn since March 2024.
+        - Tech Lead on the Spark core team focused on shuffle and data infrastructure.
+        - Led the design and implementation of a Remote Shuffle Service based on [Apache Celeborn](https://celeborn.apache.org/), enabling disaggregated shuffle for Spark on Kubernetes.
+        - Contributed [SASL Authentication](https://issues.apache.org/jira/browse/CELEBORN-1011) to Apache Celeborn to support secure multi-tenant clusters.
+        - Apache Celeborn Committer since March 2024.
 
     - role: Senior Software Engineer
       time: August 2019 - August 2022
-      company: LinkedIn, California, USA
+      company: LinkedIn, Sunnyvale, California, USA
       details: |
-        - Focused on the Spark Shuffle infrastructure. Part of the core team that worked on [Push-based shuffle](https://engineering.linkedin.com/blog/2020/introducing-magnet) and lead the effort of contributing it to the open source ([SPARK-30602](https://issues.apache.org/jira/browse/SPARK-30602)).
-        - [Contributions](https://issues.apache.org/jira/issues/?filter=-1&jql=assignee%20%3D%20csingh%20AND%20project%20%3D%20Spark%20AND%20resolution%20%3D%20Fixed%20%20order%20by%20updated%20ASC) to Apache Spark.
+        - Core contributor to Apache Spark Shuffle Infrastructure.
+        - Led the [Push-based shuffle](https://engineering.linkedin.com/blog/2020/introducing-magnet) initiative, significantly improving performance for big data workloads.
+        - Drove [open-source contributions](https://issues.apache.org/jira/issues/?filter=-1&jql=assignee%20%3D%20csingh%20AND%20project%20%3D%20Spark%20AND%20resolution%20%3D%20Fixed%20%20order%20by%20updated%20ASC) focusing on scalability, performance, and reliability.
 
     - role: Staff Software Engineer
       time: October 2017 - July 2019
-      company: Hortonworks/Cloudera, California, USA
+      company: Hortonworks/Cloudera, Santa Clara, California, USA
       details: |
-       -  Member of YARN team. Apache Hadoop Committer since March 2019. Major contributions to Apache YARN:
-          - Support in-place upgrade of a YARN service. [YARN-7512](https://issues.apache.org/jira/browse/YARN-7512)
-          - Support sliding window container auto-restart policy in the node managers. [YARN-5015](https://issues.apache.org/jira/browse/YARN-5015)
-          - Improved handling and notification of recovered containers by the resource manager. [YARN-6168](https://issues.apache.org/jira/browse/YARN-6168)
-          - Multiple other enhancements/bug fixes - [yarn-contributions](https://issues.apache.org/jira/browse/YARN-8545?jql=project%20%3D%20YARN%20AND%20assignee%20in%20(csingh))
-       - Worked on a cloud agnostic kubernetes cluster provisioner service.
+       -  Member of YARN team. Apache Hadoop Committer since March 2019.
+       -  Built a cloud-agnostic Kubernetes cluster provisioner for data infrastructure services.
+       -  Major contributions to Apache YARN including in-place upgrades ([YARN-7512](https://issues.apache.org/jira/browse/YARN-7512)), container auto-restart ([YARN-5015](https://issues.apache.org/jira/browse/YARN-5015)), and improved recovery handling ([YARN-6168](https://issues.apache.org/jira/browse/YARN-6168)).
 
     - role: Staff Software Engineer
       time: November 2016 - September 2017
-      company: GE Digital - Predix Data Services, California, USA
+      company: GE Digital - Predix Data Services, San Ramon, California, USA
       details: |
-        Lead the development of a Predix service that manages and monitors different types of
-        big data analytic applications - Apache Spark and Apache Apex.
+        -  Led the development of a big data platform service to manage and monitor Apache Spark and Apache Apex analytics applications.
+        -  Designed and implemented a control plane which launched and monitored Apex and Spark jobs running on AWS EMR.
 
     - role: Master Data Engineer
       time: June 2016 - November 2016
-      company: Data Innovation Team at CapitalOne, California, USA
+      company: CapitalOne - Data Innovation Team, San Francisco, California, USA
       details: |
-        Developed a data processing pipeline for an internal security related project. Evaluated
-        Apache Apex, Flink and Spark for the project, and developed a Flink application to
-        ingest data, clean and aggregate it.
+        -  Evaluated Apex, Flink, and Spark for real-time big data processing.
+        -  Implemented a stateful Flink streaming application for ingestion, cleaning, and aggregation for fraud detection.
 
     - role: Software Engineer
       time: August 2013 - April 2016
-      company: DataTorrent, California, USA
+      company: DataTorrent, Santa Clara, California, USA
       details: |
-        Designed and developed features for a real-time yarn-native streaming engine Apache
-        Apex. I am a PMC member and my contributions are here:
-        [apex-core](https://github.com/apache/apex-core/commits/master?author=otterc) and
-        [apex-malhar](https://github.com/apache/apex-malhar/commits/master?author=otterc)
-
-          - Created a simple API for the user to define metrics specific to an Apex application.
-          - Created ManagedState which is a component that incrementally checkpoints key-value state.
-          - Created an idempotent data managing framework, which was integrated with many of Apex’s input connectors (HDFS, JMS, and Kafka) to ingest data idempotently.
-          - Added support for configuration based schemas to the platform.
-          - Added support for the user to specify log levels on a per-class basis which can be changed dynamically as an APEX application is running.
-          - Created various fault-tolerant Input/Output Connectors- FileSystem, JMS, JDBC, CouchDB, Redis, etc.
+        -  Core engineer on Apache Apex, a YARN-native distributed stream processing platform.
+        -  Designed and enhanced the checkpointing architecture for fault-tolerant, stateful streaming infrastructure.
+        -  Created ManagedState, enabling incremental checkpointing of large-scale key-value state.
+        -  Built an idempotent data ingestion framework supporting HDFS, Kafka, JMS, and other systems for exactly-once semantics.
+        -  Developed multiple high-throughput streaming connectors (JDBC, Redis, CouchDB, FileSystem, JMS).
+        -  Apache Apex PMC member with the following contributions:
+           -  https://github.com/apache/apex-core/commits/master?author=otterc
+           -  https://github.com/apache/apex-malhar/commits/master?author=otterc
 
     - role: Software Developer/AVP
       time: August 2010 - August 2013
-      company: Currenex, California, USA
+      company: Currenex, Redwood City, California, USA
       details: |
-        Worked on high-frequency currency trading applications, which are used by brokerage firms to make a profit off trades between traders and market makers.
-
-projects:
-    title: Projects
-    intro: >
-
-    assignments:
-      - title: PeerReview on Wireless Sensor Network
-        tagline: February 2010 – May 2010. Designed and implemented a variation of PeerReview algorithm to detect byzantine failures in Wireless Sensor Networks and evaluated its performance and resource requirements. Programmed in C.
-
-      - title: PennSense
-        tagline: September 2009 – December 2009. Developed a building energy monitoring system which includes dynamic sensor network with a set of sensor nodes reporting real time values of light, temperature and motion to a gateway. Programmed in C.
-
-      - title: Quality assessment of data in a wiki-like system
-        tagline:  May 2009 – August 2009. Research project which involved capturing the provenance of data by developing a tool that records the changes to the data in a wiki-like system and evaluates the quality of the information based on its sources. Programmed in Java.
-
-      - title: Peer-to-peer Web indexer/crawler
-        tagline: March 2009 – May 2009. Developed a Google-like distributed search engine which included a Crawler, Indexer/TF-IDF Retrieval Engine, PageRank, Search Engine and User Interface. Programmed in Java.
+        -  Developed low-latency, high-throughput trading systems for high-frequency currency data processing.
+        -  Enhanced spread calculations for customer brokerage application.
 
 skills:
     title: Technical Skills
 
     toolset:
-      - name: Java, Golang, and C
-        level: 98%
+      - name: Java, Scala, Golang, C, JavaScript
 
-      - name: Apache Celeborn, Apache Spark, Apache Hadoop, Apache Apex, and Kubernetes
-        level: 98%
+      - name: Apache Spark, Apache Hadoop (YARN), Apache Celeborn, Apache Apex, Apache Flink
 
-      - name: Git, Maven, Docker
-        level: 98%
+      - name: Disaggregated compute/storage, remote shuffle, cluster resource management, fault tolerance
+
+      - name: AWS, Kubernetes, cloud-native data platforms, on-prem to cloud migration (Azure)
+
+      - name: SASL, Git, Maven, Docker

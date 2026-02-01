@@ -239,13 +239,12 @@ p {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
-        width: 100%;
-        display: block;
     }
     .level-title {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
+        float: none;
         width: 100%;
         display: block;
     }
